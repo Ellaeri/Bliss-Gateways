@@ -1,0 +1,26 @@
+<aside class="admin-sidebar">
+  <img src="/BlissGateways/assets/icons/profile.png" alt="Admin Avatar" class="admin-avatar" id="sidebarAvatar" />
+  <hr class="avatar-separator" />
+  <div class="sidebar-menu">
+    <a href="admin_dashboard.html" class="sidebar-link">Dashboard</a>
+    <a href="admin_notif.html" class="sidebar-link">Notifications</a>
+    <a href="admin_profile.html" class="sidebar-link">My Profile</a>
+    <a href="admin_payments.html" class="sidebar-link">Payment Verification</a>
+    <a href="admin_manage_clients.html" class="sidebar-link">Manage Customers</a>
+    <a href="admin_manage_feedbacks.html" class="sidebar-link">Manage Feedbacks</a>
+  </div>
+  <button id="adminLogoutBtn" class="sidebar-logout">Logout</button>
+</aside>
+
+  <div id="logoutModal" class="logout-modal hidden">
+    <div class="logout-modal-content">
+      <p>Are you sure you want to log out?</p>
+      <div class="logout-buttons">
+        <button id="confirmLogout" class="btn-yes">Yes</button>
+        <button id="cancelLogout" class="btn-no">No</button>
+      </div>
+    </div>
+  </div>
+
+<link rel="stylesheet" href="admin_sidebar.css" />
+<script src="admin_global.js" defer></script>
